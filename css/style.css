@@ -122,6 +122,8 @@ h1,h2,h3,h4,h5,h6{
 a{
     color: #092032;
     text-decoration: none;
+    transition: all .5 ease;
+    font-weight: 500;
 }
 
 img{
@@ -131,7 +133,7 @@ img{
 
 
 
-/*================================================================= NavBar ======================================================*/
+/*================================================================= Top NavBar ======================================================*/
 .top-nav{
     background-color: orangered;
     padding-top: 5px;
@@ -159,4 +161,49 @@ img{
     justify-content: center;
     font-size: 1.4rem;
     color: #fff;
+    border-radius: 100%;
+}
+
+.social-links a:hover{
+    background-color: #fff;
+    color: orangered;
+}
+
+
+/*============================================================== Main Navbar =======================================================*/
+.navbar{
+    box-shadow: 0px 6px 30px rgba(0,0,0,0.8);
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: #092032;
+}
+
+.navbar-brand span{
+    color: orangered;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active{
+    color: orangered;
+}
+
+
+/* BTN */
+.btn{
+    padding: 9px 24px;
+    font-weight: 500;
+}
+
+.btn-brand{
+    background-color: orangered;
+    color: #fff;
+    border-color: orangered;
+}
+
+.btn-brand:hover{
+    color: white;
+    background-color: rgb(193, 60, 11);
 }
