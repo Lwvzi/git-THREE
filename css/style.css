@@ -110,10 +110,53 @@ input, select {
 
 body{
     font-family: 'Barlow' sans-serif;
-    line-height: 1.7;
+    line-height: 1.7rem;
     color: #516171;
 }
 
 h1,h2,h3,h4,h5,h6{
     font-weight: 700 !important;
+    color: #092032;
+}
+
+a{
+    color: #092032;
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+
+
+
+/*================================================================= NavBar ======================================================*/
+.top-nav{
+    background-color: orangered;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-nav p{
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 1rem;
+    color: #fff;
+}
+
+.top-nav i,
+.top-nav span{
+    vertical-align: middle;
+}
+
+.social-links a{
+    width: 2rem;
+    height: 2rem;
+    background-color: rgba(170, 166, 166, 0.7);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: #fff;
 }
