@@ -224,10 +224,21 @@ img{
     background: linear-gradient(#48a7efb3, #48a7efb3) ,url('.//silhouette-business-people-urban-scene-concepts-group-46666470.jpg');
 }
 
-/* Slide2*/
+/* Slide2 */
 .slide2{
     background: linear-gradient(#48a7efb3, #48a7efb3) ,url('.//orsrc33656.jpg');
 }
+
+/* Slide3 */
+.slide3{
+    background: linear-gradient(#48a7efb3, #48a7efb3) ,url('.//orsrc43478.jpg');
+}
+
+/* Slide4 */
+.slide4{
+    background: linear-gradient(#48a7efb3, #48a7efb3) ,url('.//orsrc56973.jpg');
+}
+
 
 /* Owl Carousel*/
 .owl-prev, 
@@ -242,6 +253,12 @@ img{
     margin-top: -30px !important;
     color: #ffffff !important;
     font-weight: 500 !important;
+    border-radius: 100% !important;
+}
+
+.owl-prev:hover, 
+.owl-next:hover{
+    background-color: orangered !important;
 }
 
 .owl-prev{
