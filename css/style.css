@@ -114,6 +114,9 @@ body{
     color: #516171;
 }
 
+.intro{
+    margin-bottom: 40px;
+}
 
 
 h1,h2,h3,h4,h5,h6{
@@ -305,4 +308,34 @@ section{
 #milestone p{
     color: #fff;
     font-weight: 700;
+}
+
+
+
+/*================================================================ Services Section ======================================================*/
+.intro h6{
+    font-weight: 400;
+    color: orangered;
+}
+
+.intro p{
+    max-width: 500px;
+    margin: auto;
+}
+
+.service-box i{
+    color: orangered;
+    margin-right: 18px;
+    font-size: 49px;
+}
+
+.service-box{
+    padding: 32px;
+    box-shadow: 0px 6px 30px rgba(0,0,0,0.8);
+    text-align: center;
+}
+
+.service-box h5{
+    margin-top: 24px;
+    margin-bottom: 12px;
 }
