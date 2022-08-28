@@ -292,3 +292,17 @@ section{
 .sthombe{
     border-radius: 100%;
 }
+
+
+
+/*================================================================ Milestone Section ======================================================*/
+
+#milestone{
+    background: linear-gradient(rgba(255, 68, 0, 0.8), rgba(255, 68, 0, 0.8)) ,url('.//silhouette-business-people-urban-scene-concepts-group-46666470.jpg');
+}
+
+#milestone .display-4,
+#milestone p{
+    color: #fff;
+    font-weight: 700;
+}
