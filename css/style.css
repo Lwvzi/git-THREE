@@ -132,6 +132,11 @@ img{
     width: 100%;
 }
 
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 .bg-cover{
     background-position: center !important;
     background-size: cover !important;
@@ -267,4 +272,23 @@ img{
 
 .owl-next{
     right: 0;
+}
+
+
+
+
+/*================================================================ About Section ======================================================*/
+
+.info-box{
+    display: flex;
+    align-items: center;
+}
+
+.info-box i{
+    color: orangered;
+    margin-right: 18px;
+}
+
+.sthombe{
+    border-radius: 100%;
 }
