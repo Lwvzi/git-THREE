@@ -339,3 +339,61 @@ section{
     margin-top: 24px;
     margin-bottom: 12px;
 }
+
+
+
+
+
+/*================================================================ Portfolio Section ======================================================*/
+
+.project{
+    position: relative;
+}
+
+.project .overlay{
+    background: linear-gradient(to bottom, rgba(9, 33, 52, 0.3), rgba(9, 32, 50, 0.8));
+    position: absolute;
+    width: 100%;
+    height: 221px;
+    bottom: 0;
+    left: 0;
+}
+
+.project .content{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 35px;
+}
+
+.project h1,
+.project h6{
+    color:#fff;
+}
+
+.project h6{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/*create an orange line*/
+.project h6::before{
+    content: "";
+    height: 2px;
+    width: 24px;
+    background-color: tomato;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 7px;
+}
+
+#project-slider .owl-prev,
+#project-slider .owl-next{
+    background-color: rgba(255, 255, 255, 0.436) !important;
+}
+
+#project-slider .owl-prev:hover,
+#project-slider .owl-next:hover{
+    background-color: orangered !important;
+}
