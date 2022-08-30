@@ -26,7 +26,6 @@ $(document).ready(function(){
         loop: true,
         margin:0,
         nav: true,
-        items: 1,
         smartSpeed: 1000,
         navText: ['Prev', 'Next'],
         margin: 24,
