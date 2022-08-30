@@ -22,12 +22,11 @@ $(document).ready(function(){
 
 
      //project slider
-     $('#project-slider').owlCarousel({
+     $('#project-slide').owlCarousel({
         loop: true,
         margin:0,
         nav: true,
-        dots: false,
-        items: 2,
+        items: 1,
         smartSpeed: 1000,
         navText: ['Prev', 'Next'],
         margin: 24,
@@ -39,15 +38,24 @@ $(document).ready(function(){
 
             768:{
                 items: 2,
-                dots: true,
             },
 
             1140:{
                 center: true,
                 items: 2,
-                dots: true,
             }
         }
     });
+
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots: true,
+        items: 1,
+        smartSpeed: 1000,
+        
+    });
+
 
 });

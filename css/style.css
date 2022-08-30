@@ -369,7 +369,7 @@ section{
 
 .project h1,
 .project h6{
-    color:#fff;
+    color:#fff !important;
 }
 
 .project h6{
@@ -391,11 +391,13 @@ section{
 #project-slider .owl-prev,
 #project-slider .owl-next{
     background-color: rgba(255, 255, 255, 0.436) !important;
+    color: tomato !important;
 }
 
 #project-slider .owl-prev:hover,
 #project-slider .owl-next:hover{
     background-color: orangered !important;
+    color: white !important;
 }
 
 
@@ -448,3 +450,44 @@ section{
 .team-member h5{
     margin-top: 24px;
 }
+
+
+
+/*============================================================== Reviews Section ===============================================*/
+
+#reviews{
+    background: linear-gradient(rgba(72, 167, 239, 0.896), rgba(72, 167, 239, 0.841)) ,url('.//silhouette-business-people-urban-scene-concepts-group-46666470.jpg');
+}
+
+.review{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.review img{
+    width: 85px !important;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.review h4,
+.review p{
+    color: white;
+}
+
+.review small{
+    color: tomato;
+}
+
+.review p,
+.review h4{
+    margin-top: 21px;
+}
+
+/*changing color of dot*/
+
+.owl-dot.active span{
+    background-color: orangered !important;
+}
+
